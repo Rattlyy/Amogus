@@ -16,6 +16,9 @@ public class SussyListener implements Listener {
     @EventHandler
     public void onClick(PlayerInteractEvent event) {
         if (event.getAction() == Action.RIGHT_CLICK_BLOCK) {
+            if (event.getPlayer().getInventory().getItemInMainHand().getItemMeta() == null)
+                return;
+
             if (event.getPlayer().getInventory().getItemInMainHand().getItemMeta().getCustomModelData() == 696969) {
                 event.setCancelled(true);
 
@@ -26,7 +29,7 @@ public class SussyListener implements Listener {
                     player.getInventory().setItemInMainHand(new ItemStack(Material.AIR));
                 }
 
-                Zombie stand = player.getWorld().spawn(event.getClickedBlock().getLocation().add(0 , 1, 0), Zombie.class);
+                Zombie stand = player.getWorld().spawn(event.getClickedBlock().getLocation().add(0, 1, 0), Zombie.class);
                 stand.setInvulnerable(false);
                 stand.setHealth(20);
                 stand.setCustomName("AMOGUS");
