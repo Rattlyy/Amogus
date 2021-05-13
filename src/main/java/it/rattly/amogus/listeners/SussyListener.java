@@ -19,6 +19,9 @@ public class SussyListener implements Listener {
             if (event.getPlayer().getInventory().getItemInMainHand().getItemMeta() == null)
                 return;
 
+            if (!event.getPlayer().getInventory().getItemInMainHand().getItemMeta().hasCustomModelData())
+                return;
+
             if (event.getPlayer().getInventory().getItemInMainHand().getItemMeta().getCustomModelData() == 696969) {
                 event.setCancelled(true);
 
