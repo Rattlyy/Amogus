@@ -10,7 +10,7 @@ Execute the /amogus command and you'll get an Amogus spawn egg.
 Place it and an AMOBGUS will spawn.
 
 ## A**MOB**gus
-The aMOBgus is a mob that likes to randomly scream AMOGUS and attack you. He's armed with a iron sword.
+The aMOBgus is a mob that likes to randomly scream AMOGUS and attack you. He's armed with an iron sword.
 
 ## Photos
 
