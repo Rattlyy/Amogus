@@ -1,0 +1,8 @@
+name: Amogus
+version: ${project.version}
+main: it.rattly.amogus.Amogus
+api-version: 1.15
+authors: [ Rattlyy ]
+commands:
+  amogus:
+    description: Give yourself an amogus (Possibily do this at 3AM for best effects)
