@@ -3,7 +3,7 @@ Amogus mob in minecraft. Made with plugin magic.
 
 ## Getting Started
 
-Download the [resourcepack](https://) and install the plugin. 
+Download the [resourcepack](https://github.com/Rattlyy/Amogus/blob/master/AMOGUS.zip?raw=true) and install the plugin. 
 
 Execute the /amogus command and you'll get an Amogus spawn egg. 
 
